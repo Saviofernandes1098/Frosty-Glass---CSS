@@ -1,1 +1,7 @@
-<
+* { box-sizing: border-box; }
+
+html{ height: 100%; }
+
+body { min-height: 100%;
+      font-family: "Helvetica";
+      background: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg")
