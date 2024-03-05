@@ -26,3 +26,37 @@ body { min-height: 100%;
       text-transform: uppercase;
       color: rgb(207, 223, 250);
 }
+
+.list-item {
+      list-style: none;
+}
+
+.link {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.25rem;
+      transition: color 300ms ease-in-out;
+}
+
+.link:hover {
+      color: rgb(207, 223, 250);
+}
+
+.link:visited {
+      color: #fff;
+}
+
+.footer {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #fff;
+}
+
+.footer > a {
+      margin: 0;
+}
+
+
